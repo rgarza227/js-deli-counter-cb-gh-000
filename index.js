@@ -24,6 +24,6 @@ function currentLine(katzDeliLine){
     for(var i = 0;i<katzDeliLine.length;i++){
       myString = myString + (i+1) + ". " + katzDeliLine[0]
     }
-    return ""
+    return myString
   }
 }
